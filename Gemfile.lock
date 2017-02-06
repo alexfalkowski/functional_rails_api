@@ -95,7 +95,6 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     pg (0.19.0)
-    psych (2.2.2)
     public_suffix (2.0.5)
     puma (3.7.0)
     rack (2.0.1)
@@ -153,10 +152,9 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   listen
-  pg (~> 0.18)
-  psych (~> 2.0)
-  puma (~> 3.0)
-  rails (~> 5.0.1)
+  pg
+  puma
+  rails
 
 BUNDLED WITH
    1.14.3
