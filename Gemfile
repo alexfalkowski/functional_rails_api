@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'active_model_serializers'
 gem 'api-versions'
 gem 'pg'
 gem 'puma'
