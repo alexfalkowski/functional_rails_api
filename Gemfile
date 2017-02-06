@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'pg'
 gem 'puma'
 gem 'rails'
+gem 'rfunk'
 
 group :test do
   gem 'cucumber-rails', require: false
