@@ -40,6 +40,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    api-versions (1.2.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
     arel (7.1.4)
     builder (3.2.3)
     capybara (2.12.0)
@@ -178,6 +181,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  api-versions
   cucumber-api (~> 0.4)
   cucumber-rails
   database_cleaner
