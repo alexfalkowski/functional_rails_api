@@ -2,11 +2,11 @@ module Api
   module V1
     class PersonsController < ApplicationController
       def create
-        either = Either(-> { Person.create!(person_attributes) })
+        either = RFunk.either(-> { Person.create!(person_attributes) })
         case either
-          when Success
+          when RFunk::Success
             render json: { message: either.result }, status: :created
-          when Failure
+          when RFunk::Failure
             render json: { error: either.result }, status: :unprocessable_entity
         end
       end
